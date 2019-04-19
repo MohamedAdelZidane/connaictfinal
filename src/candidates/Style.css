@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  #CandidatesTitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 2.25em;
+    margin-bottom: 0
+  }
+
+  #CandidatesSlogan{
+    font-weight: 600;
+    color: #000;
+    font-size: 2em;
+    /* color: #205CE2 */
+  }
+
+  .btn{
+    padding-bottom: 4%
+  }
+
+  .btn Button{
+    background-color: #202e78;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        height: 150%;
+        width: 94%;
+}
+
+#mobileFormText{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    color: #000639;
+    font-size: 1.25em;
+}
+
+
+  /* .shareBtn-facebook {
+    color: #fff;
+    background-color: #4C67A1;
+  }
+  .shareBtn-facebook:hover {
+    color: #fff;
+    background-color: #405D9B;
+  }
+  .shareBtn-facebook:focus {
+    color: #fff;
+  } */
+
+    .NavBar{
+        padding-top: 2%;
+        
+    }
+
+    #content{
+      padding: 2% 0% 1% 11%;
+      background-color: #f4f6f7;
+    }
+    .iconText{
+      padding:4% 33% 0% 4%;
+    }
+
+    #FeatureTitle{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 550;
+      color: #000639;
+      font-size: 1.5em;
+      margin-bottom: 0.2em;
+      
+    }
+
+    #FeatureDescription{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 40;
+      color: #000639;
+      font-size: 1em;
+      margin-bottom: 0;
+      color: #637381
+    }
+  
+    .iconImage{
+      padding:4% 0% 0% 7%
+    }
+
+    .textField{
+      text-align: center
+     }
+     #mobileFormText{
+      text-align: center
+    }
+#mobileForm{
+  width: 75%
+}
+
+
+
+    .submitBtn{
+      height: 50px; 
+      border-radius: 5px;
+      border: none;
+      width: 100%;
+      font-weight: 500;
+      font-size: 1.1em;
+      padding: 0.5em 0.5em;
+      background-color: #205CE2;
+      color: #fff;
+      align-content: center;
+      margin-top:20px 
+    }
+
+    .submitBtn:hover{
+      background-color: #0d47a1;
+      color: #fff;
+    }
+
+    #followBtn{
+      cursor: pointer;
+      /* background-color: #205CE2; */
+      /* color: #fff;
+      border: none; */
+      
+    }
+
+    .fa {
+      padding: 10px;
+      font-size: 30px;
+      width: 45px;
+      height:50px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+  }
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+  #CandidatesTitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 3em;
+    margin-bottom: 0.3em;
+  }
+
+  #CandidatesSlogan{
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #000;
+  }
+
+  .btn{
+    padding-bottom: 5%
+  }
+  .btn Button{
+    background-color: #202e78;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        height: 160%;
+        width: 93%;
+}
+
+  #mobileFormText{
+    text-align: center
+  }
+
+  #content{
+    padding: 2% 0% 1% 11%;
+    background-color: #f4f6f7;
+  }
+
+  #FeatureTitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    color: #000639;
+    font-size: 2em;
+    margin-bottom: 0.2em;
+    
+  }
+  
+  #FeatureDescription{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 40;
+    color: #000639;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    color: #637381
+  }
+
+  .textField{
+    text-align: center
+   }
+
+   .iconText{
+    padding:4% 5% 0% 6%
+  }
+
+  .iconImage{
+    padding:4% 0% 0% 7%
+  }
+  .submitBtn{
+    height: 50px; 
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 0.5em 0.5em;
+    background-color: #205CE2;
+    color: #fff;
+    align-content: center;
+    margin-top:20px 
+  }
+
+  .submitBtn:hover{
+    background-color: #0d47a1;
+    color: #fff;
+  }
+
+  #followBtn{
+    cursor: pointer;
+    /* background-color: #205CE2; */
+    /* color: #fff;
+    border: none; */
+    
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 45px;
+    height:50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+
+  }
+
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+
+
+  
+  .btn Button{
+    background-color: #0d47a1;
+        color: white;
+        border: none;
+        border-radius: 100px;
+        height: 8vh;
+        width: 92%  
+}
+
+  
+  #mobileFeatures{
+    margin: 0% 5% 10% 7%;
+}
+
+#mobileFormText{
+  margin: 0% 5% 0% 5%;
+  text-align: center
+}
+br{
+  display: none
+}
+#CandidatesSlogan{
+  text-align: center
+}
+
+#signupBR{
+  display: none
+}
+#followBtn{
+  cursor: pointer;
+  /* background-color: #205CE2; */
+  /* color: #fff;
+  border: none; */
+  
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 45px;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+
+    
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+
+    #CandidatesTitle{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      color: #000;
+      font-size: 4em;
+      margin-bottom: 0.3em;
+      padding-left: 5%
+    }
+  
+    #CandidatesSlogan{
+      font-weight: 600;
+      font-size: 3em;
+      color: #000;
+      padding-left: 5%
+    }
+
+    #mobileFormText{
+      font-family: 'Poppins', sans-serif;
+        font-weight: 550;
+        color: #000639;
+        font-size: 2.25em;
+    }
+
+    .btn{
+      padding-bottom: 4%
+    }
+    .btn Button{
+      background-color: #202e78;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          height: 160%;
+          width: 94%;
+  }
+
+    #mobileFormText{
+      text-align: center
+    }
+   
+    #CandidatesSlogan{
+      text-align: left;
+      padding-left: 5%
+    }
+  
+  #mobileForm{
+    margin: 0% 5% 0% 5%;
+    text-align: center
+  }
+  
+  #signupBR{
+    display: none
+  }
+  
+  #mobileFeatures{
+    padding: 0% 0% 6% 0%;
+  }
+  
+  #FeatureTitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    color: #000639;
+    font-size: 2em;
+    margin-bottom: 0.2em;
+    
+  }
+  
+  #FeatureDescription{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 40;
+    color: #000639;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    color: #637381
+  }
+
+  .featureIcon img{
+    width:70px;
+    height:60px;
+  }
+  .iconTitle{
+    padding: 5% 10% 0% 10%;
+    text-align: center;
+  }
+  .iconDescription{
+    /* margin: 0% 10% 0% 6%; */
+    padding: 0% 10% 0% 10%;
+    text-align: center;
+  }
+  .iconTitle2{
+    padding: 2% 10% 0% 10%;
+    text-align: center;
+  }
+  .iconDescription2{
+    /* margin: 0% 10% 0% 6%; */
+    padding: 0% 10% 0% 10%;
+    text-align: center;
+  }
+
+  .submitBtn{
+    height: 50px; 
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 0.5em 0.5em;
+    background-color: #205CE2;
+    color: #fff;
+    align-content: center;
+    margin-top:20px 
+  }
+
+  .submitBtn:hover{
+    background-color: #0d47a1;
+    color: #fff;
+  }
+
+  #followBtn{
+    cursor: pointer;
+    /* background-color: #205CE2; */
+    /* color: #fff;
+    border: none; */
+    
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 45px;
+    height:50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  }
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  #CandidatesTitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 3.5em;
+    margin-bottom: 0.3em;
+    padding-left: 5%
+  }
+
+  #CandidatesSlogan{
+    font-weight: 600;
+    color: #000;
+    font-size: 2.5em;
+    /* color: #205CE2; */
+    padding-left: 5%
+  }
+
+  #mobileFormText{
+    font-family: 'Poppins', sans-serif;
+      font-weight: 550;
+      color: #000639;
+      font-size: 2em;
+  }
+
+  .btn{
+    padding-bottom: 5%
+  }
+  .btn Button{
+    background-color: #202e78;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        height: 150%;
+        width: 91%;
+}
+  
+  /* #CandidatesSlogan{
+    text-align: left;
+    padding-left: 5%
+  } */
+
+#mobileForm{
+  margin: 0% 5% 0% 5%;
+  text-align: center
+}
+
+#signupBR{
+  display: none
+}
+
+#mobileFeatures{
+  padding: 0% 0% 6% 0%;
+}
+
+#FeatureTitle{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 550;
+  color: #000639;
+  font-size: 1.5em;
+  margin-bottom: 0.2em;
+  
+}
+
+#FeatureDescription{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 40;
+  color: #000639;
+  font-size: 1em;
+  margin-bottom: 0;
+  color: #637381
+}
+
+.featureIcon img{
+  width:70px;
+  height:60px;
+}
+.iconTitle{
+  padding: 5% 10% 0% 10%;
+  text-align: center;
+}
+.iconDescription{
+  /* margin: 0% 10% 0% 6%; */
+  padding: 0% 12% 0% 12%;
+  text-align: center;
+}
+.iconTitle2{
+  padding: 2% 10% 0% 10%;
+  text-align: center;
+}
+.iconDescription2{
+  /* margin: 0% 10% 0% 6%; */
+  padding: 0% 26% 0% 26%;
+  text-align: center;
+}
+
+.submitBtn{
+  height: 50px; 
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding: 0.5em 0.5em;
+  background-color: #205CE2;
+  color: #fff;
+  align-content: center;
+  margin-top:20px 
+}
+
+.submitBtn:hover{
+  background-color: #0d47a1;
+  color: #fff;
+}
+
+#followBtn{
+  cursor: pointer;
+  /* background-color: #205CE2; */
+  /* color: #fff;
+  border: none; */
+  
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 45px;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+    
+  }
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    #CandidatesTitle{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      color: #000;
+      font-size: 2em;
+      margin-bottom: 0.3em;
+      padding-left: 5%
+    }
+  
+    #CandidatesSlogan{
+      font-weight: 600;
+      color: #000;
+      font-size: 1.5em;
+      /* color: #205CE2; */
+      padding-left: 5%
+    }
+
+    #mobileFormText{
+      font-family: 'Poppins', sans-serif;
+        font-weight: 550;
+        color: #000639;
+        font-size: 1.25em;
+    }
+
+    .btn{
+      padding-bottom: 9%
+    }
+    .btn Button{
+      background-color: #202e78;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          height: 150%;
+          width: 90%;
+  }
+  
+    
+    #mobileForm{
+      margin: 0% 5% 0% 5%;
+      
+    }
+
+    #signupBR{
+      display: none
+    }
+    #mobileFormText{
+      text-align: center
+    }
+    .textField{
+     text-align: center
+    }
+
+    #mobileFeatures{
+      padding: 0% 0% 6% 0%;
+    }
+
+    .featureIcon img{
+      width:70px;
+      height:60px;
+      margin-top: 5%;
+    }
+
+    #FeatureTitle{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 550;
+      color: #000639;
+      font-size: 1.5em;
+      margin-bottom: 0.2em;
+      
+    }
+
+    #FeatureDescription{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 40;
+      color: #000639;
+      font-size: 1em;
+      margin-bottom: 0;
+      color: #637381
+    }
+
+    .iconTitle{
+      padding: 5% 10% 0% 10%;
+      /* text-align: center; */
+    }
+    .iconDescription{
+      /* margin: 0% 10% 0% 6%; */
+      padding: 0% 10% 0% 10%;
+      /* text-align: center; */
+    }
+    .iconTitle2{
+      padding: 5% 10% 0% 10%;
+      /* text-align: center; */
+    }
+    .iconDescription2{
+      /* margin: 0% 10% 0% 6%; */
+      padding: 0% 10% 0% 10%;
+      /* text-align: center; */
+    }
+
+    .submitBtn{
+      height: 50px; 
+      border-radius: 5px;
+      border: none;
+      width: 100%;
+      font-weight: 500;
+      font-size: 1.1em;
+      padding: 0.5em 0.5em;
+      background-color: #205CE2;
+      color: #fff;
+      align-content: center;
+      margin-top:20px 
+    }
+
+    .submitBtn:hover{
+      background-color: #0d47a1;
+      color: #fff;
+    }
+
+    #followBtn{
+      cursor: pointer;
+      /* background-color: #205CE2; */
+      /* color: #fff;
+      border: none; */
+      
+    }
+
+    .fa {
+      padding: 10px;
+      font-size: 30px;
+      width: 45px;
+      height:50px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+  }
