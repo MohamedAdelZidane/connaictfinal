@@ -68,12 +68,12 @@ class Home extends Component {
               <div className=" col-lg-12">
                 <Link to="/candidates">
                   <button id="CandbtnSubmit" class="btn" >
-                    JOB SEEKERS <i class="fa fa-arrow-right" style={{paddingLeft:"10px"}}></i>
+                    JOB SEEKERS <i class="fa fa-arrow-right" style={{ fontSize: "100%"}}></i>
                    </button>
                 </Link>
                 <Link to="/recruiters">
                   <button id="CombtnSubmit" class="btn" >
-                    COMPANIES <i class="fa fa-arrow-right" style={{paddingLeft:"10px"}}></i>
+                    COMPANIES <i class="fa fa-arrow-right" style={{fontSize: "100%"}}></i>
                   </button>
                 </Link>
               </div>

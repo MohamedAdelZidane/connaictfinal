@@ -18,6 +18,7 @@ class Footer extends Component {
           </div>
           <div className="col-md-6 col-6 linksColor" >
             <p id="aboutInNavigation"><b>KEEP IN TOUCH</b></p>
+            <a href="https://www.facebook.com/connaict/" class="fa fa-facebook"></a>
           </div>
           <div className="col-sm-12 d-lg-none d-md-none .d-xl-block" id="aboutInNavigation">
             <p>Connaict is an AI company aims to connect recruiters with qualified candidates using AI, also helping candidates developing in their career path.</p>
